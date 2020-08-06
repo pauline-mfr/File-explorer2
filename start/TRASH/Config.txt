@@ -1,0 +1,18 @@
+Dans sendmail.ini :
+
+smtp_server= mail.codeur.online
+smtp_port= 587
+smtp_ssl=tls
+auth_username= adresse codeur
+auth_password= mdp codeur
+force_sender= adresse codeur
+
+
+
+
+Dans php.ini :
+
+SMTP = mail.codeur.online
+smtp_port = 587
+sendmail_from = adresse codeur
+sendmail_path = "\"C:\wamp64\sendmail\sendmail.exe\" -t"

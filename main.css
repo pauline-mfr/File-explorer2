@@ -1,0 +1,32 @@
+body {background-image: url('bg.png'); background-color: white; font-size: 18px; position: relative; color: white; font-family: Helvetica;}
+
+button {color: SlateBlue; font-size: 18px; background: none; border: none;}
+a {color: SlateBlue; text-decoration: none;}
+p {color: SlateBlue; position: absolute; font-size: 20px; left:550px; top: 15px; font-weight: bold; background-color: white; padding: 5px;}
+#paste {font-size: 18px; padding: 10px; border-radius: 15px; opacity: 80%; background: none; color: white; position: absolute; left: 450px; top: 20px; border: 2px solid Gainsboro;}
+input {height: 18px; border-radius: 10px; opacity: 70%; color: black; padding: 8px; margin-bottom: 15px;}
+::placeholder {text-align: center; font-family: Helvetica;}
+
+.crumbs {border-radius: 5px; color: black; border: none; font-weight: bold; background-color: white; padding: 5px; margin-right: 0px; border: 1px solid grey;}
+.create {font-weight: bold; color: white; border-radius: 20px; background: none; border: 2px solid white; opacity: 70%; font-size: 18px;}
+.ok {font-size: 15px; padding: 10px; border-radius: 15px; opacity: 80%; background: none; color: white; border: 2px solid Gainsboro;}
+
+#menu {background-image: url('menu.jpg'); border-bottom: 2px solid grey;
+padding: 30px; margin: 20px; width: 900px; height: 100px; margin: auto; margin-top: 60px;}
+#content {background-color: Gainsboro; width: 900px; margin: auto; padding: 30px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;}
+#r-actions {float: right; margin-top: -100px; margin-right: 250px; position: relative;}
+#display {display: flex; justify-content:space-evenly; flex-direction: row; flex-wrap: wrap; width: 900px;  height: 400px; margin-top: 30px;}
+
+#upload {font-size: 15px; padding: 10px; border-radius: 15px; opacity: 80%; background: none; color: white; border: 2px solid Gainsboro;}
+#trash {position: absolute; left: 90%; top: 600px; background: none; border-radius: 100px; height: 120px; width: 120px; color: black;padding: 1px 6px; font: 400 13.3333px Arial; border-width: 2px; border-style: outset; border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));}
+#rename {width: 300px; margin: auto; margin-top: 20px;}
+
+#restore {display:block; color: Gainsboro; background-color: SlateBlue; margin-top: 10px; border-radius: 10px; padding: 5px;}
+#restore:hover {font-size: 18px; font-weight: bold;}
+
+/* OPTIONS HOVER */
+.links {list-style-type: none;}
+.links .action{display: none;}
+.links:hover .action{display:block; color: Gainsboro;}
+#options {background-color: SlateBlue; margin-top: 10px; border-radius: 10px; padding: 0.5px;}
+.action:hover {font-size: 19px; font-weight: bold;}
